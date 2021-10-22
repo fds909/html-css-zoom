@@ -5,8 +5,18 @@
     box-sizing: border-box;
 }
 
-/* COMMONS */
+body {
+    height: 100vh;
+}
+
 main {
     display: flex;
-    
+    height: 90%;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    height: 10%;
+    background-color: grey;
 }

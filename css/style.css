@@ -13,10 +13,17 @@ main {
     display: flex;
     height: 90%;
     background-color: black;
+    padding: 10vh;
 }
 
 footer {
     display: flex;
     height: 10%;
     background-color: grey;
+}
+
+.box {
+    background-color: cyan;
+    width: 200px;
+    height: calc(100% / 7);
 }

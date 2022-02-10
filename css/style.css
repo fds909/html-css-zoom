@@ -65,10 +65,38 @@ main {
 
 footer {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
     background-color: #0c0d0e;
+    color: white;
     height: 70px;
     width: 100%;
 }
+
+.buttons-left, .buttons-center {
+    display: flex;
+}
+
+.end-meeting {
+    width: 10vw;
+    color: red;
+    background-color: #2e2e2e;
+    text-align: center;
+    line-height: 70px;
+}
+
+.menu-btn {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.menu-btn i {
+    font-size: 26px;
+}
+
+.green-icon {
+    color: #318400;
+}
+
 
 

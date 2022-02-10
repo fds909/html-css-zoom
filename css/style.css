@@ -5,25 +5,70 @@
     box-sizing: border-box;
 }
 
+/* Commons */
+
 body {
-    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+    height: 60px;
+}
+
+.speaker-view, .fullscreen {
+    background-color: #353535;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    border-radius: 7px;
+    padding: 0 10px;
 }
 
 main {
     display: flex;
-    height: 90%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: calc(100vh - 130px);
+    width: 100%;
     background-color: black;
-    padding: 10vh;
+    overflow-y: auto;
+}
+
+.user {
+    position: relative;
+    height: 120px;
+    width: 200px;
+    margin: 5px;
+    background-image: url('../img/image.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.username {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 footer {
     display: flex;
-    height: 10%;
-    background-color: grey;
+    
+    background-color: #0c0d0e;
+    height: 70px;
+    width: 100%;
 }
 
-.box {
-    background-color: cyan;
-    width: 200px;
-    height: calc(100% / 7);
-}
+
